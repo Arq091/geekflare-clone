@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+.container {
+    display: block;
+    font-family:inter;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-flow: wrap;
+    margin-bottom: 100px;
+}
+
+svg {
+    color: orange;
+}
+
+.card {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 290px;
+    padding: 30px;
+    flex: 1;
+    transition: margin-top 0.2s ease 0s, box-shadow 0.14s ease-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 40px rgba(104, 104, 104, 0.41);
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.p {
+    color: gray;
+    margin-top: 0px;
+    font-size: 0.9rem
+}
+
+.explore {
+    background-color: #ef5123;
+    border: none;
+    text-align: center;
+    width: 260px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    transition: opacity 0.15s;
+}
+
+.explore:hover {
+    opacity: 0.8;
+}
+
+.list {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.intro {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-weight: 500;
+}
+
+.intro h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.intro p {
+    line-height: 25px;
+    color: rgb(56, 56, 56);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* stuff that happens when screen reaches a specific width */
+}
